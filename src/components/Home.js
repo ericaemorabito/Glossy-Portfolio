@@ -5,7 +5,7 @@ import iphone from '../assets/iphone.png'
 
 const Home = () => {
   return (
-    <Row fluid className="screen gx-0"> 
+    <Row fluid id="home" className="screen gx-0"> 
     <Col lg={12} md={10} sm={12} xs={12} className="content-col">
       <Row className="content-row">
         <Col lg={8} md={10} sm={12} xs={12} id="left" className="body-col d-flex flex-column align-items-center justify-content-center">

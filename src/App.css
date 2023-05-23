@@ -35,10 +35,9 @@
 /* #left {
 background-color: blue;
 }
-
 #right {
   background-color: blueviolet;
-}  */
+}   */
 
 /* Medium devices (phones, tablet, 800px and down) */
 @media only screen and (max-width: 800px) {

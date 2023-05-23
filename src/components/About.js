@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Row fluid className="screen gx-0"> 
+    <Row fluid id="about" className="screen gx-0"> 
     <Col lg={12} md={10} sm={12} xs={12} className="content-col">
       {/* <Row className="title-row">
       </Row> */}
