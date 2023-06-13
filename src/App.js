@@ -3,18 +3,20 @@ import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
 import Work from './components/Work'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 import { Container } from 'react-bootstrap'
 
 function App() {
   return (
     <div className="App">
-      <Header expand={'false'} />
-      <Container className='main' fluid>
-        {/* <Home /> */}
-        {/* <About /> */}
+      {/* <Header /> */}
+        <Home />
+        <About />
         <Work />
-      </Container>
+        <Contact />
+        <Footer />
     </div>
   );
 }

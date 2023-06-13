@@ -1,50 +1,35 @@
-import React, { useState } from "react";
-import { Button, Offcanvas, Navbar, Container, Nav } from "react-bootstrap";
 import "../styles/header.css";
-import linkedIn from '../assets/linkedInCircle.svg'
-import menu from '../assets/menu.svg'
 
-const Header = ({ expand }) => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+const Header = () => {
   return (
-    <Navbar className="mb-3">
-      <Container fluid>
-        <Nav>
-          <Nav.Link>
-            <img src={linkedIn} id="linkedin-icon" alt='linkedIn icon'>
-            </img>
-          </Nav.Link>
-        </Nav>
-        <Navbar.Brand id="brand" href="#">Erica</Navbar.Brand>
-        <Navbar.Toggle aria-controls={`'offcanvasNavbar-expand-${expand}`} />
-        <Navbar.Offcanvas
-          id={`offcanvasNavbar-expand-${expand}`}
-          aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-          placement="end"
-          show={show}
-          onHide={handleClose}
-        ></Navbar.Offcanvas>
-      </Container>
-      <button onClick={handleShow}>
-        <img id="menu-icon" src={menu} className="header-icons">
-        </img>
-      </button>
-      <Offcanvas show={show} onHide={handleClose} placement="end">
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Portfolio</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-        <Nav>
-          <Nav.Link>About</Nav.Link>
-        </Nav>
-        </Offcanvas.Body>
-      </Offcanvas>{" "}
-      *
-    </Navbar>
+    <header>
+      <div className="brand">
+        <a href="#home">
+          {/* <img src={logo} className="logo"></img> */}
+        </a>
+        <a href="#home">
+          <p id="brand-title" className="nav-link">
+            Erica Morabito
+          </p>
+        </a>
+      </div>
+
+      <ul className="nav">
+        <li className="nav-link">
+          <a className="nav-link" href="#about">
+            About
+          </a>
+        </li>
+
+        <li className="nav-link">
+          <a className="nav-link" href="/create">
+            <button id="create-nav-btn" className="button">
+              Work
+            </button>
+          </a>
+        </li>
+      </ul>
+    </header>
   );
 };
 
