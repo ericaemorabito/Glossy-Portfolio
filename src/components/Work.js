@@ -11,6 +11,9 @@ import codeQuiz from "../assets/codeQuiz.png";
 import code from "../assets/code.jpeg";
 import colletta from "../assets/colletta.png";
 import vmjs from "../assets/vmjs.png";
+// Icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 // Projects
 const projectData = [
@@ -75,51 +78,89 @@ const projectData = [
 ];
 const Work = () => {
   return (
-    <Row fluid className="screen gx-0">
-      {projectData.map((project) => (
-        <Col lg={12} md={10} sm={12} xs={12} className="content-col">
-          <Row className="content-row">
-            {/* Project Image */}
-            <Col
-              lg={6}
-              md={10}
-              sm={12}
-              xs={12}
-              id="left"
-              className="body-col d-flex flex-column justify-content-center"
-            >
-              <img src={project.image} alt='screenshot of project' className="project-image"></img>
-            </Col>
+    <div id="work" className="work-page">
 
-            {/* Project Text  */}
-            <Col
-              lg={6}
-              md={10}
-              sm={12}
-              xs={12}
-              id="right"
-              className="body-col d-flex flex-column justify-content-center"
-            >
-              <h2 className="project-title">{project.title}</h2>
-              <h3 className="project-tech">
-                JavaScript · React.js · Bootstrap
-              </h3>
-              <p className="project-description">{project.description}</p>
-              <button className="live-btn">Play now</button>
-              <div>
-                <a href={project.github} target="_blank" rel="noreferrer">
-                <img
-                  src={github}
-                  alt="Github icon"
-                  className="github-icon"
-                ></img>
-                </a>
-              </div>
-            </Col>
-          </Row>
-        </Col>
-      ))}
-    </Row>
+      {/* Each Project */}
+      <div className="project-box">
+
+        {/* Project Text */}
+        <div className="project-text-box">
+          <p className="blue-text">Full Stack Project</p>
+          <p className="subtitle">Title</p>
+
+          {/* Details */}
+          <div className="details-box">
+            <p className="text">
+              details for the project go here and here and here
+            </p>
+          </div>
+
+          {/* Tech */}
+          <div className="tech-box">
+            <p className="text">JavaScript React Bootstrap</p>
+          </div>
+
+          {/* Links */}
+          <div className="icons-box">
+            <a href="/" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faCode} />
+            </a>
+            <a href="/" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faCode} />
+            </a>
+          </div>
+        </div>
+
+        {/* Project Image */}
+        <div className="image-box"></div>
+      </div>
+    </div>
+
+    // <div className="work-page">
+    //   {projectData.map((project) => (
+    //     <Col lg={12} md={10} sm={12} xs={12} className="content-col">
+    //       <Row className="content-row">
+    //         {/* Project Image */}
+    //         <Col
+    //           lg={6}
+    //           md={10}
+    //           sm={12}
+    //           xs={12}
+    //           id="left"
+    //           className="body-col d-flex flex-column justify-content-center"
+    //         >
+    //           <img src={project.image} alt='screenshot of project' className="project-image"></img>
+    //         </Col>
+
+    //         {/* Project Text  */}
+    //         <Col
+    //           lg={6}
+    //           md={10}
+    //           sm={12}
+    //           xs={12}
+    //           id="right"
+    //           className="body-col d-flex flex-column justify-content-center"
+    //         >
+    //           <h2 className="project-title">{project.title}</h2>
+    //           <h3 className="project-tech">
+    //             JavaScript · React.js · Bootstrap
+    //           </h3>
+    //           <p className="project-description">{project.description}</p>
+    //           <button className="live-btn">Play now</button>
+    //           <div>
+    //             <a href={project.github} target="_blank" rel="noreferrer">
+    //             <img
+    //               src={github}
+    //               alt="Github icon"
+    //               className="github-icon"
+    //             ></img>
+    //             </a>
+    //           </div>
+    //         </Col>
+    //       </Row>
+    //     </Col>
+    //   ))}
+    // </div>
   );
 };
 

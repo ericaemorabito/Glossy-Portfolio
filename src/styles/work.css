@@ -1,4 +1,37 @@
-.project-title, 
+.work-page {
+  background-color: var(--deep-purple);
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-box {
+  display: flex;
+  justify-content: center;
+}
+
+.project-text-box {
+  /* background-color: red; */
+  width: 400px;
+}
+
+.details-box {
+  background-color: var(--purple);
+  width: 400px;
+  height: fit-content;
+  padding: 5px;
+  border-radius: var(--br-form);
+}
+
+.image-box {
+  background-color: grey;
+  height: 300px;
+  width: 425px;
+}
+
+
+/* .project-title, 
 .project-tech,
 .project-description, 
 .live-btn,
@@ -32,4 +65,4 @@
 
 .project-image {
   height: 25rem;
-}
+} */

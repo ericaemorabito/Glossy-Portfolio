@@ -11,9 +11,9 @@ import { Container } from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
         <Home />
-        <About />
+        {/* <About /> */}
         <Work />
         <Contact />
         <Footer />
