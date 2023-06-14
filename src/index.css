@@ -3,7 +3,7 @@
   --purple: #19224C;
   --teal: #11F5E8;
   --grey: rgba(250, 236, 236, 1);
-  /* --grey: rgba(255, 255, 255, 0.5); */
+  --light-purple: #8C90A5;
 
   --m-page: 100px, 0px, 100px, 0px; 
   --m-page-mobile: 10px 10px 0px 0px;
@@ -115,19 +115,28 @@ svg {
   font-size: var(--fs-4);
   font-weight: var(--fw-light);
   color: var(--grey);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .text {
   font-size: var(--fs-6);
   font-weight: var(--fw-semi-bold);
   color: var(--grey);
+  margin-bottom: 10px;
 }
 
 .blue-text {
   font-size: var(--fs-6);
   font-weight: var(--fw-semi-bold);
   color: var(--teal);
+  margin-bottom: 10px;
+}
+
+.purple-text {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-semi-bold);
+  color: var(--light-purple);
+  margin-bottom: 10px;
 }
 
 /* BUTTON STYLING */
@@ -162,4 +171,7 @@ svg {
 
 .blue-icon {
   color: var(--teal);
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
 }

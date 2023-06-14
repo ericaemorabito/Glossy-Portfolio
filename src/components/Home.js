@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div id="home" className="page">
       <div className="welcome-box">
-        <h1 className="subtitle">Erica Morabito</h1>
+        <h1 id="name" className="subtitle">Erica Morabito</h1>
         <h2 className="title job">Full Stack Web Developer</h2>
 
         {/* Action Button Area */}
