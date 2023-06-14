@@ -26,6 +26,11 @@
   align-items: center;
 }
 
+.welcome-icon {
+  width: 50px;
+  color: var(--teal);
+}
+
 .action-btn {
   width: 50px;
   height: 50px;
@@ -42,7 +47,7 @@
   margin-right: 20px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .job {
     font-size: var(--fs-2);
   }

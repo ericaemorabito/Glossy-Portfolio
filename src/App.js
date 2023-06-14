@@ -6,14 +6,12 @@ import Work from './components/Work'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-import { Container } from 'react-bootstrap'
-
 function App() {
   return (
     <div className="App">
       <Header />
         <Home />
-        {/* <About /> */}
+        <About />
         <Work />
         <Contact />
         {/* <Footer /> */}

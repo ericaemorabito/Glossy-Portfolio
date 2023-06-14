@@ -12,9 +12,9 @@ const Home = () => {
 
         {/* Action Button Area */}
         <div className="btn-box">
-          <a href="#">
+          <a href="#work">
           <button className="action-btn">
-            <FontAwesomeIcon icon={faCode} className="blue-icon" />
+            <FontAwesomeIcon icon={faCode} className="welcome-icon" />
           </button>
           </a>
           <a href="#work">
