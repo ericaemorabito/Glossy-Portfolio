@@ -125,6 +125,13 @@ svg {
   margin-bottom: 10px;
 }
 
+.light-text {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-light);
+  color: var(--grey);
+  margin-bottom: 10px;
+}
+
 .blue-text {
   font-size: var(--fs-6);
   font-weight: var(--fw-semi-bold);
@@ -146,10 +153,11 @@ svg {
   height: 50px;
   border-radius: 250px;
   font-size: var(--fs-button);
-  box-shadow: 0px 5px 5px var(--black-25);
+  box-shadow: 0px 5px 10px 1px var(--deep-purple);
   margin-top: 20px;
   background-color: var(--teal);
-  color: var(--grey);
+  color: var(--deep-purple);
+  border: none;
 }
 
 .button-blue:hover,
@@ -163,6 +171,8 @@ svg {
 }
 
 .button-blue:active {
+  background-color: var(--deep-purple);
+  color: var(--grey);
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
