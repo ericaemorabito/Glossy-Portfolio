@@ -1,11 +1,10 @@
 header {
-  background-color: var(--purple);
-  /* border-bottom: 1px solid var(--deep-purple); */
+  /* background-color: green; */
   height: 100px;
+  width: 100%;
   display: flex;
-  /* position: fixed; Set the navbar to fixed position */
-  /* top: 0; Position the navbar at the top of the page */
-  /* width: 100%; Full width */
+  z-index: 1;
+  position: absolute;
 }
 
 /* Branding */
@@ -13,57 +12,59 @@ header {
   display: flex;
   align-items: center;
   margin-left: 100px;
-  /* background-color: blue; */
 }
 
 .logo {
-  width: 75px;
+  width: 50px;
 }
 
 /* Nav List Items */
 .nav {
-  /* background-color: blue; */
-  display: flex;
-  align-items: center;
-  position: absolute;
-  right: 100px;
+  position: relative;
   top: 25px;
+  left: 65%;
 }
 
 .nav-link {
   font-size: var(--fs-nav);
   color: var(--grey);
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-semi-bold);
 }
 
 .nav-link:hover {
   transform: translateY(-1px);
   transition-duration: 0.2s;
-  text-shadow: 0px 2px 5px var(--black-25);
+  text-shadow: 0px 2px 5px var(--deep-purple);
   color: var(--teal);
 }
 
-.nav-link:visited {
-  color: var(--grey);
+#about-nav-link:hover, 
+#work-nav-link:hover, 
+#contact-nav-link:hover {
+  color: var(--teal);
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    left: 5%;
+  }
 }
 
 @media (max-width: 50em) {
   header {
     height: 75px;
-    margin: 0px 10px 0px 10px;
   }
 
   .brand {
-    margin-left: 0px;
-  }
-
-  .logo {
-    width: 60px;
+    margin-left: 5px;
   }
 
   .nav {
-    right: 10px;
-    top: 20px;
-    margin-right: 15px;
+    right: 0px;
+    top: 15px;
+  }
+
+  .nav-link {
+    font-size: 12px;
   }
 }

@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import logo from '../assets/logo.svg'
+import logo from '../assets/E.png'
 
 const Header = () => {
   return (
@@ -14,17 +14,17 @@ const Header = () => {
     {/* Nav Items */}
       <ul className="nav">
         <li className="nav-link">
-          <a className="nav-link" href="#about">
+          <a id="about-nav-link" className="nav-link" href="#about">
             About
           </a>
         </li>
         <li className="nav-link">
-          <a className="nav-link" href="#work">
+          <a id="work-nav-link" className="nav-link" href="#work">
             Work
           </a>
         </li>
         <li className="nav-link">
-          <a className="nav-link" href="#contact">
+          <a id="contact-nav-link" className="nav-link" href="#contact">
             Contact
           </a>
         </li>
