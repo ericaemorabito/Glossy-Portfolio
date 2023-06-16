@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc0d0e45.css",
-    "main.js": "/static/js/main.1e97b791.js",
-    "static/media/vmjs.png": "/static/media/vmjs.12ce6686b0611dbc3750.png",
-    "static/media/tastemakers.png": "/static/media/tastemakers.f5fdae46c61b8249e275.png",
-    "static/media/colletta.png": "/static/media/colletta.c858a41b458377440c66.png",
-    "static/media/soloTravel.png": "/static/media/soloTravel.a02f013c120c861366db.png",
-    "static/media/weather.png": "/static/media/weather.8bcb6060511d6087e2ff.png",
-    "static/media/code.jpeg": "/static/media/code.549e1e4c5e9ce65526af.jpeg",
-    "static/media/codeQuiz.png": "/static/media/codeQuiz.1972bbec223344f1fd29.png",
-    "static/media/E.png": "/static/media/E.eab21559b7b22ca76009.png",
-    "static/media/github-icon.svg": "/static/media/github-icon.5531be85d7a8d6f333e5c7136944a022.svg",
-    "index.html": "/index.html",
-    "main.dc0d0e45.css.map": "/static/css/main.dc0d0e45.css.map",
-    "main.1e97b791.js.map": "/static/js/main.1e97b791.js.map"
+    "main.css": "/Glossy-Portfolio/static/css/main.36aa3083.css",
+    "main.js": "/Glossy-Portfolio/static/js/main.184bd626.js",
+    "static/media/vmjs.png": "/Glossy-Portfolio/static/media/vmjs.12ce6686b0611dbc3750.png",
+    "static/media/tastemakers.png": "/Glossy-Portfolio/static/media/tastemakers.f5fdae46c61b8249e275.png",
+    "static/media/colletta.png": "/Glossy-Portfolio/static/media/colletta.c858a41b458377440c66.png",
+    "static/media/soloTravel.png": "/Glossy-Portfolio/static/media/soloTravel.a02f013c120c861366db.png",
+    "static/media/weather.png": "/Glossy-Portfolio/static/media/weather.8bcb6060511d6087e2ff.png",
+    "static/media/code.jpeg": "/Glossy-Portfolio/static/media/code.549e1e4c5e9ce65526af.jpeg",
+    "static/media/codeQuiz.png": "/Glossy-Portfolio/static/media/codeQuiz.1972bbec223344f1fd29.png",
+    "static/media/E.png": "/Glossy-Portfolio/static/media/E.eab21559b7b22ca76009.png",
+    "static/media/github-icon.svg": "/Glossy-Portfolio/static/media/github-icon.5531be85d7a8d6f333e5c7136944a022.svg",
+    "index.html": "/Glossy-Portfolio/index.html",
+    "main.36aa3083.css.map": "/Glossy-Portfolio/static/css/main.36aa3083.css.map",
+    "main.184bd626.js.map": "/Glossy-Portfolio/static/js/main.184bd626.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc0d0e45.css",
-    "static/js/main.1e97b791.js"
+    "static/css/main.36aa3083.css",
+    "static/js/main.184bd626.js"
   ]
 }
