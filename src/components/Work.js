@@ -47,15 +47,15 @@ const projectData = [
     image: vmjs,
     type: "Front End Developer",
   },
-  {
-    id: 5,
-    title: "Tastemakers",
-    description: "Website where users can find and save recipes based on their preferences. Integrated YouTube and Spoonacular APIs.",
-    github: "https://github.com/ericaemorabito/taste_makers.git",
-    deployed: "https://ericaemorabito.github.io/taste_makers/",
-    image: tasteMakers,
-    type: "Front End Developer",
-  },
+  // {
+  //   id: 5,
+  //   title: "Tastemakers",
+  //   description: "Website where users can find and save recipes based on their preferences. Integrated YouTube and Spoonacular APIs.",
+  //   github: "https://github.com/ericaemorabito/taste_makers.git",
+  //   deployed: "https://ericaemorabito.github.io/taste_makers/",
+  //   image: tasteMakers,
+  //   type: "Front End Developer",
+  // },
   // {
   //   id: 6,
   //   title: "Weather Dashboard",
@@ -65,15 +65,15 @@ const projectData = [
   //   image: weather,
   //   type: 'Front End Project'
   // },
-  {
-    id: 7,
-    title: "Code Quiz",
-    description: "Quiz created with HTML, CSS, JavaScript to practice local storage and event listener functions.",
-    github: "https://github.com/ericaemorabito/Code_Quiz",
-    deployed: "https://ericaemorabito.github.io/Code_Quiz/",
-    image: codeQuiz,
-    type: 'Front End Project'
-  },
+  // {
+  //   id: 7,
+  //   title: "Code Quiz",
+  //   description: "Quiz created with HTML, CSS, JavaScript to practice local storage and event listener functions.",
+  //   github: "https://github.com/ericaemorabito/Code_Quiz",
+  //   deployed: "https://ericaemorabito.github.io/Code_Quiz/",
+  //   image: codeQuiz,
+  //   type: 'Front End Project'
+  // },
   // {
   //   id: 8,
   //   title: "E-commerce API",

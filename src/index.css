@@ -70,9 +70,17 @@ body {
 
 /* A elements that don't have a class get default styles */
 a, a:hover, a:visited {
-  text-decoration: none;
-  color: var(--grey);
+color:var(--grey);
+text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* p {
+  margin-bottom: 0px !important;
+} */
 
 /* Make images easier to work with */
 img,

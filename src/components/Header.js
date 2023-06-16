@@ -6,8 +6,8 @@ const Header = () => {
     <header>
       {/* Branding */}
       <div className="brand">
-        <a href="#home">
-          <img src={logo} className="logo"></img>
+        <a href="#home" id="brand-logo">
+          E
         </a>
       </div>
 

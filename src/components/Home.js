@@ -17,11 +17,11 @@ const Home = () => {
             <FontAwesomeIcon icon={faCode} className="welcome-icon" />
           </button>
           </a>
-          <a href="#work">
-            <p className="blue-text action-item">See my work</p>
+          <a href="#work" id="see-work">
+            See my work
           </a>
-          <a href="#">
-            <p className="blue-text action-item">Download Resume</p>
+          <a href="#" id="download-resume">
+            Download Resume
           </a>
         </div>
       </div>

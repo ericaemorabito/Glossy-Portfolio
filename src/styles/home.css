@@ -41,10 +41,19 @@
   margin-right: 20px;
 }
 
-.action-item {
-  position: relative;
-  top: 5px;
+#see-work,
+#download-resume {
+  color: var(--teal);
+  text-decoration: none;
   margin-right: 20px;
+}
+
+#see-work:hover,
+#download-resume:hover {
+  color: var(--grey);
+  transform: translateY(-3px);
+  transition-duration: 0.1s;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
 }
 
 @media (max-width: 800px) {
