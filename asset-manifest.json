@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Glossy-Portfolio/static/css/main.36aa3083.css",
-    "main.js": "/Glossy-Portfolio/static/js/main.184bd626.js",
+    "main.css": "/Glossy-Portfolio/static/css/main.148f518d.css",
+    "main.js": "/Glossy-Portfolio/static/js/main.fd007ced.js",
     "static/media/vmjs.png": "/Glossy-Portfolio/static/media/vmjs.12ce6686b0611dbc3750.png",
     "static/media/tastemakers.png": "/Glossy-Portfolio/static/media/tastemakers.f5fdae46c61b8249e275.png",
     "static/media/colletta.png": "/Glossy-Portfolio/static/media/colletta.c858a41b458377440c66.png",
@@ -9,14 +9,15 @@
     "static/media/weather.png": "/Glossy-Portfolio/static/media/weather.8bcb6060511d6087e2ff.png",
     "static/media/code.jpeg": "/Glossy-Portfolio/static/media/code.549e1e4c5e9ce65526af.jpeg",
     "static/media/codeQuiz.png": "/Glossy-Portfolio/static/media/codeQuiz.1972bbec223344f1fd29.png",
+    "static/media/resume.pdf": "/Glossy-Portfolio/static/media/resume.5933330919d50b4c2bf7.pdf",
     "static/media/E.png": "/Glossy-Portfolio/static/media/E.eab21559b7b22ca76009.png",
     "static/media/github-icon.svg": "/Glossy-Portfolio/static/media/github-icon.5531be85d7a8d6f333e5c7136944a022.svg",
     "index.html": "/Glossy-Portfolio/index.html",
-    "main.36aa3083.css.map": "/Glossy-Portfolio/static/css/main.36aa3083.css.map",
-    "main.184bd626.js.map": "/Glossy-Portfolio/static/js/main.184bd626.js.map"
+    "main.148f518d.css.map": "/Glossy-Portfolio/static/css/main.148f518d.css.map",
+    "main.fd007ced.js.map": "/Glossy-Portfolio/static/js/main.fd007ced.js.map"
   },
   "entrypoints": [
-    "static/css/main.36aa3083.css",
-    "static/js/main.184bd626.js"
+    "static/css/main.148f518d.css",
+    "static/js/main.fd007ced.js"
   ]
 }
